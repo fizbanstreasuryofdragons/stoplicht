@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="100k]@p53irN4^W1pFgG" x="0" y="0"><statement name="HANDLER"><block type="set_traffic_light_led" id="g$`6x,mejqKD^od`YY1,"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="basic_show_icon" id="Ut2/+5l6:do7gtj{bgKr"><field name="i">IconNames.No</field></block></next></block></statement></block><block type="device_forever" id="@z6y7+}j]2=N8sM[Qt|w" x="205" y="0"></block><block type="device_button_event" id="U+yozhXVt!vjhJ^)@8ZA" x="198" y="383"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="set_traffic_light_led" id="c@7v)?1+C;bAGo:9HLPz"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="`4yVECFz863(bX5nSHQ0"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id=":B~]:C~p?25HAOqxy@}U"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="!`LsZx-xCanrYxN;5H+!"><value name="pause"><shadow type="timePicker" id="1lXlcZ/$@c`8E]8jiOcU"><field name="ms">2000</field></shadow></value><next><block type="set_traffic_light_led" id=";C76Jh0y*}8IX{,y(Yl0"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="{%molc@[1*iRrOX(iY1E"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="sRV59jo1kaHJ=DQZNp(#"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id=";IxL)l}(HSG6}GnT}yrg"><value name="pause"><shadow type="timePicker" id="*GJiv]zB~XUn!YNfW7/m"><field name="ms">2000</field></shadow></value><next><block type="set_traffic_light_led" id=";1H2_}oX}XX8_x5svW-n"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="BTT(u-c/f*sk7p0l=J#z"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="0$xut6/QyY6:G$T/gr9M"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
