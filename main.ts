@@ -3,9 +3,9 @@ input.onButtonPressed(Button.B, function () {
     Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Green, Kitronik_STOPbit.DisplayLights.On)
     basic.showLeds(`
         . . # . .
-        . # # # .
-        # . # . #
-        . . # . .
+        . . . # .
+        # # # # #
+        . . . # .
         . . # . .
         `)
     basic.pause(2000)
